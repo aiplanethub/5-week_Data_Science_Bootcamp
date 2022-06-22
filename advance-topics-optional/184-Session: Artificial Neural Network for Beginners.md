@@ -1,0 +1,2 @@
+<h1>Session: Artificial Neural Network for Beginners</h1>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/rxp7FE-t80Y?list=PLKub218pIBvER9BC5wK6FH8YhmTtsZN2G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
