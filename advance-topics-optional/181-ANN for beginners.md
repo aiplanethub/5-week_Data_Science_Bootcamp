@@ -1,0 +1,4 @@
+<ul>
+	<li><strong>ANN session slides</strong>:&nbsp;<a href="https://github.com/dphi-official/ML_Models/blob/master/ANN_for_Beginners/Artificial%20Neural%20Network%20for%20Beginners.pptx" target="_blank">https://github.com/dphi-official/ML_Models/blob/master/ANN_for_Beginners/Artificial%20Neural%20Network%20for%20Beginners.pptx</a></li>
+	<li><strong>ANN session Notebook:&nbsp;</strong><a href="https://github.com/dphi-official/ML_Models/blob/master/ANN_for_Beginners/ANN%20for%20Beginners%20(Predict%20House%20Price).ipynb" target="_blank">https://github.com/dphi-official/ML_Models/blob/master/ANN_for_Beginners/ANN%20for%20Beginners%20(Predict%20House%20Price).ipynb</a></li>
+</ul>
