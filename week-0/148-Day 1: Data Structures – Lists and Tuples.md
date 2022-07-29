@@ -79,4 +79,31 @@ The Python len() function can be used to determine the number of items found in 
 
 The .sort() Python list method will sort the contents of whatever list it is called on. Numerical lists will be sorted in ascending order, and lists of Strings will be sorted into alphabetical order. It modifies the original list, and has no return value.&#x20;
 
+
+
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_9362877c383e40158343947d52ef1dc6.png)
+
+
+
+## Tuples in Python
+
+* Tuple is also an ordered sequence of items as List. Tuple also holds multiple data types.
+* The only difference in Tuple & List is that Tuple is immutable; once created it cannot be changed.
+* Creating a tuple is as simple as putting different comma-separated values within round brackets.
+* Example: A = (‘Brush’, ‘Leuven’, 48851964400, 3.14, ‘Mom’)
+
+**Note:** The tutor in this video used python console. Nothing to worry here, you can use the same code and run it on jupyter notebook too.
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XQOWZidQSnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
