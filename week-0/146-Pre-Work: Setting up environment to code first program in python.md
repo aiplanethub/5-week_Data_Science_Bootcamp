@@ -12,33 +12,33 @@
 
 * Data Science is not about programming languages/tools such as Python, R, Excel, Jupyter Notebook, Google Colab, etc.
 
-* Data Science is using above tools and techniques, and if required inventing new tools and techniques, to solve a problem using “data” in a “scientific” way.
+* Data Science is using the above tools and techniques and, if required, inventing new tools and techniques to solve a problem using "data" in a "scientific" way.
 
 ## Python and Google Colab
 
-Now that we know the importance of Python in Data Science. Let's try to understand the tools that we need to use to run python for Data Science tasks.
+Now that we know the importance of Python in Data Science. Let's try to understand the tools we need to run Python for Data Science tasks.
 
-One of the popular toolkits that data scientists use to run their python scripts is an interactive notebook. There are various ways in which you can setup an interactive notebook. In this module, we will learn one them i.e how to setup and use Google Colab
+An interactive notebook is one of the popular toolkits that data scientists use to run their python scripts. There are various ways in which you can set up an interactive notebook. In this module, we will learn one of them, i.e., how to set up and use Google Colab.
 
 ### What are Interactive Notebooks?
 
-We are humans and always need user-friendly applications. Notebooks are typically used by data scientists for quick exploration tasks and easy-to-use interactive data science environments.
+We are humans and always need user-friendly applications. Data scientists typically use notebooks for quick exploration tasks and easy-to-use interactive data science environments.
 
 ### Google Colab - Online Environment to Run Python Code
 
-* Google colab is the most simplest way to setup an interactive notebook environment to perform your data science tasks.
+* Google Colab is the simplest way to set up an interactive notebook environment to perform your data science tasks.
 
-* The environment offers you upto 12 GB ram/GPU etc for free and 100 GB storage.
+* The environment offers you up to 12 GB RAM, GPU, 100 GB storage, etc., for free.
 
-* You don’t need to worry about installing a bulky python application on your laptop/computer
+* You don't need to worry about installing a bulky python application on your laptop/computer
 
-* **Link to access Google colab:** https://colab.research.google.com
+* **Link to access Google Colab:** https://colab.research.google.com
 
 ### Getting Started Video to Run Python Code on Colab
 
-There seems to some issue with visibility in the video with print function. Print function is usually used as follows print(z) However, in the video it appears to be print.(z). due to screen recording issue, so please use the correct one i.e print(z)
+There seems to be some issue with visibility in the video with the print function. The print function is usually used as print(z). However, in the video, it appears to be print.(z). due to a screen recording issue, so please use the correct one, i.e., print(z).
 
-Incase, if you are opening the video on youtube link, you may _**start from 24 secs and watch till 3 mins 10 secs**_ (rest will be covered later)
+In case you are opening the video on youtube, you may _**start from 24 secs and watch till 3 mins 10 secs**_ (rest will be covered later)
 
 
 
@@ -61,9 +61,9 @@ _If you have a good internet connection and are comfortable using Google Colab, 
 
 ### [Optional] What is Anaconda and Jupyter Notebook?
 
-* Python - you know by now is a programming language. Now what is Anaconda?
-* Anaconda is a free and open-source distribution of Python. In nutshell it makes your life easy to run python code on your laptop/computer.
-* **Again why Anaconda?** - Well, we are humans and we always want user-friendly applications. And that’s what Anaconda does here. It offers a powerful tool called “Jupyter notebook” which is an easy-to-use and interactive python environment for data science.
+* Python, you know by now, is a programming language. Now, what is Anaconda?
+* Anaconda is a free and open-source distribution of Python. In a nutshell, it makes your life easy to run python code on your laptop/computer.
+* **Again, why Anaconda?** - Well, we are humans and always want user-friendly applications. And that's what Anaconda does here. It offers a powerful tool called "Jupyter notebook," an easy-to-use and interactive python environment for data science.
 
 ### [Optional] Installation of Python and Anaconda
 
@@ -78,10 +78,10 @@ _If you have a good internet connection and are comfortable using Google Colab, 
 * Mac OS: [https://docs.anaconda.com/anaconda/install/mac-os/](https://docs.anaconda.com/anaconda/install/mac-os/)
 * Linux OS: [https://docs.anaconda.com/anaconda/install/linux/](https://docs.anaconda.com/anaconda/install/linux/)
 
-### Now Let’s Open Anaconda Navigator
+### Let's Open Anaconda Navigator
 
-* Once you install and open anaconda, you will see the below screen.
-* Click “Launch” under Jupyter Notebook in anaconda navigator in order to open a notebook in your default web browser.
+* Once you install and open Anaconda, you will see the below screen.
+* Click "Launch" under Jupyter Notebook in anaconda navigator to open a notebook in your default web browser.
 
 
 
@@ -99,7 +99,7 @@ _If you have a good internet connection and are comfortable using Google Colab, 
 
 ### Jupyter Interface
 
-* This is how the basic jupyter interface looks like!
+* This is what the basic Jupyter interface looks like!
 * No files might be displayed if your folder is empty.
 
 
@@ -157,8 +157,8 @@ To create a new notebook, go to New at the top right corner and select Notebook 
 
 # Write Your First Python Program
 
-Now you already know how to print 'Hello World!' in Python. Let's do a small exercise. Open your Jupyter Notebook or Colab Notebook or any other Python IDE.
+Now you already know how to print 'Hello World!' in Python. Let's do a small exercise. Open your Jupyter Notebook or Colab Notebook, or any other Python IDE.
 
 Write a Python program to print the given statement.
 
-"Hello, DPhi! Today I have executed my very first Python program. Thanks!"
+"Hello, DPhi! Today I executed my very first Python program. Thanks!"
