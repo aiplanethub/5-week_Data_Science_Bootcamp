@@ -135,19 +135,19 @@ x \* y  # multiplication
 
 ## Data Structures and Data Types
 
-* If you’re learning Python from multiple sources, you might encounter the terms data structures and data types being used interchangeably.
+* If you're learning Python from multiple sources, you might encounter the terms data structures and data types being used interchangeably.
 * **Definition:** Data structure is a general computer science concept. Its definition reads as follows on Wikipedia:
-* **Data structure is a data organization, management, and storage format that enables efficient access and modification.** More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
-* Whereas Data type is a concept specific to a programming language. In a way, it is a concrete implementation of a data structure in a particular programming language (be it python or any other language).
-* \*\*The actual definition of what constitutes a "type" varies among programming languages. \*\*Talking about Python, there are basic data types like int, float, string etc. You can use the built-in types like list, set etc. which we will be covering in this session.
-* Calling these data types as data structures won’t be wrong because there is no major difference between the two in Python.
+* **Data structure is a data organization, management, and storage format that enables efficient access and modification.** More precisely, a data structure is a collection of data values, their relationships, and the functions or operations that can be applied to the data.
+* Whereas Data type is a concept specific to a programming language. In a way, it is a concrete implementation of a data structure in a particular programming language (Python or any other language).
+* \*\*The definition of what constitutes a "type" varies among programming languages. \*\*Talking about Python, there are basic data types like int, float, string, etc. You can use the built-in types like list, set, etc., which we will cover in this session.
+* Calling these data types as data structures won't be wrong because there is no significant difference between the two in Python.
 
 
 
 ### Data Types in Python
 
 *   Before we proceed to discuss what data types in Python are, there are some basic questions that we would discuss. **What is data?**
-* Let’s say you are going to meet a friend at her office. When you go to visit her office, the security guard asks you to make an entry in the register before you enter the office. A typical entry register asks for the following information –
+* Let's say you are going to meet a friend at her office. When you go to visit her office, the security guard asks you to make an entry in the register before you enter the office. A typical entry register asks for the following information –
 
 
 
@@ -158,19 +158,19 @@ x \* y  # multiplication
 
 
 * The above information that you just provided is data.
-* We see that the data entry in the previous slide has different varieties:
-  * Some are english letters,
+* We see that the data entered in the previous slide has different varieties:
+  * Some are English letters,
   * Some are numerical digits, and
   * There are some special characters, dash (-) and colon ( : ).
-  * In this example, our data is divided into 4 categories – name, phone number, address, and time.
+  * In this example, our data is divided into four categories – name, phone number, address, and time.
   *   This\*\* categorization of data, **based on their characteristic & our need,** is called data types.
 
-*   Some of the data types in python include:
+*   Some of the data types in Python include:
 
-    * Integer: whole numbers, positive or negative numbers. Eg: 100
+    * Integer: whole numbers, positive or negative numbers. E.g.: 100
     * Float: Floating-point numbers are real numbers, rational or irrational. In most cases, this means numbers with decimal fractions. Example: 123.45
 
-    * String: Strings are sequences of characters, or text, enclosed in quotes. Example: "any text", “karen”\\
+    * String: Strings are sequences of characters, or text, enclosed in quotes. Example: "any text", "Karen" \\
 * For further reading:
   * [operators and data types](https://www.dummies.com/programming/python/python-all-in-one-for-dummies-cheat-sheet/)
 * For practice and different data type examples, visit: [https://www.w3schools.com/python/python\_datatypes.asp](https://www.w3schools.com/python/python\_datatypes.asp)
@@ -207,22 +207,22 @@ You can get the data type of any object by using the type( ) function:
 
 * Sequences allow you to store multiple values in an **organized and efficient way**.&#x20;
 * There are seven sequence types: strings, Unicode strings, lists, tuples, bytearrays, buffers, and xrange objects.&#x20;
-* _Nothing to worry looking at this long list, you will get to know it gradually._
+* _Nothing to worry about looking at this long list; you will get to know it gradually._
 
 
 
 ### Python Strings
 
-* Strings are sequence of characters.&#x20;
+* Strings are a sequence of characters.&#x20;
 * Let us see some examples of String: My name is Rahul, Rahul, Go home. All these are examples of String.&#x20;
 * In Python, Strings are called str.&#x20;
-* There is a specific way of defining String in Python – it is defined within single quote (‘) or double quotes (“) or even triple quotes (“‘).&#x20;
+* There is a specific way of defining String in Python – it is defined within single quotes (') or double quotes ("), or even triple quotes ("').&#x20;
 
 ### Accessing String Elements
 
 * Square brackets can be used to access elements of the string.
 * **Remember that the first character has index 0.**
-* Index refers to position of a character in a string. In python index number starts from 0.
+* Index refers to the position of a character in a string. In python index number starts from 0.
 * Example:  
   ```
   a = "Hello, World!"
@@ -249,8 +249,8 @@ You can get the data type of any object by using the type( ) function:
 ### String Slicing
 
 * We can also call out a range of characters from the string using string slicing.
-* Specify the start index and the end index, separated by a colon, to return a part of the string. Note that the character of the end index is not included.
-* Suppose we want to print World from the string “Hello World”. We can do so as below:
+* Specify the start and end indexes separated by a colon to return a part of the string. Note that the character of the end index is not included.
+* Suppose we want to print World from the string "Hello World". We can do so as below:
 
 
 
@@ -263,8 +263,8 @@ You can get the data type of any object by using the type( ) function:
 
 ### Negative Indexing
 
-* If we have a long string and we want to pinpoint an item towards the end, we can also count backwards from the end of the string, starting at the index number -1
-*   Printing ‘r’ from the string :
+* If we have a long string and we want to pinpoint an item towards the end, we can also count backward from the end of the string, starting at the index number -1
+*   Printing 'r' from the string :
     ```
     a = "Hello, World!"
     print(a[-4])
@@ -302,9 +302,9 @@ You can get the data type of any object by using the type( ) function:
 ### String Length
 
 * To get the length of a string, use the len( ) function.
-*   Getting length of the string a :
+*   Getting the length of the string a :
 
-    `a = "Hello, World!"`
+    'a = "Hello, World!"`
 
     `print(len(a))`
 * **Output: 13**
@@ -316,6 +316,6 @@ You can get the data type of any object by using the type( ) function:
 
 ### String Methods
 
-* Python has a set of built-in methods that you can use on strings.
+* Python has a set of built-in methods you can use on strings.
 * Must learn: Learn about important string methods from the below cheatsheet: [https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-strings/cheatsheet](https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-strings/cheatsheet)&#x20;
-* Tip: If you are unable to follow, run the code and make out the difference.
+* Tip: If you cannot follow, run the code and make the difference.
