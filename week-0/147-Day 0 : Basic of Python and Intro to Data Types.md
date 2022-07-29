@@ -1,6 +1,6 @@
 ## Comments
 
-* When writing code in Python, it’s important to make sure that your code can be easily understood by others, say by your friend who wants to see your code.
+* When writing code in Python, it's important to ensure that your code can be easily understood by others, say by your friend who wants to see your code.
 * Python ignores everything after the hash mark and up to the end of the line. You can insert them anywhere in your code!
 * A shortcut for adding comments is by using CTRL + /
 
@@ -16,8 +16,8 @@
 
 ## Operators
 
-* Operators are used to perform simple operations such as additions, comparisons etc on variables and values.
-* Python supports the following types of operators, we will be looking at some of the commonly used operators.
+* Operators perform simple additions, comparisons, etc., on variables and values.
+* Python supports the following types of operators; we will look at some commonly used operators.
 
 
 
@@ -29,7 +29,7 @@
 
 ### Arithmetic Operator
 
-We can perform some basic arithmetic operations such as additions, subtraction, multiplication etc using python
+Using Python, we can perform some basic arithmetic operations such as additions, subtraction, multiplication, etc.
 
 Example:\
 \
