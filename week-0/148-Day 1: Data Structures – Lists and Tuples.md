@@ -7,13 +7,13 @@
   * 3.14
   * Mom
 
-* **Well, this is my list. You could make your own list & include whatever you want in it.** So, in my list, I have included what I do early in the morning, the city I live in, my mobile number, the value of pi to two digits, and mom. It has different types of data – strings, float, and integer. 
+* **Well, this is my list. You could make your list & include whatever you want in it.** So, in my list, I have included what I do early in the morning, my city, my mobile number, the value of pi to two digits, and mom. It has different types of data – strings, float, and integer. 
 
 
-* **Well, this is the kind of flexibility Python List provides. It can hold different types of data types. Declaring a List is fairly straightforward. You use square bracket (\[]) and separate the items by a comma.** Let me write an example -  
+* **Well, this is the kind of flexibility Python List provides. It can hold different types of data types. Declaring a List is pretty straightforward. You use square brackets (\[]) and separate the items by a comma.** Let me write an example -  
 A = \["Brush", "Leuven", 48851964400, 3.14, "Mom"]
 
-* **Lists are mutable.** Say if you want to change some item on a List, you can do that. For example, if I don’t like  ‘Brush’’, and want to replace this with ‘Morning Walk’, I can do it –  
+* **Lists are mutable.** Say if you want to change some item on a List, you can do that. For example, if I don’t like ‘Brush’, and want to replace this with ‘Morning Walk’, I can do it –  
   A = \["Morning Walk", "Leuven", 48851964400, 3.14, "Mom"]
 * Some **essential features** of Python lists are:
   * Collection of values
@@ -22,7 +22,7 @@ A = \["Brush", "Leuven", 48851964400, 3.14, "Mom"]
 
 
 
-**Note:** The tutor in this video used python console. Nothing to worry here, you can use the same code and run it on jupyter notebook too.
+**Note:** The tutor in this video used a Python console. Nothing to worry about here; you can use the same code and run it on a Jupyter notebook too.
 
 
 
@@ -60,7 +60,7 @@ In Python, you can add values to the end of a list using the .append() method.
 
 ### count()
 
-The .count() Python list method searches a list for whatever search term it receives as an argument, then returns the number of matching entries found.
+The .count() Python list method searches a list for whatever search term it receives as an argument, then returns the number of matching entries.
 
 
 
@@ -71,13 +71,13 @@ The .count() Python list method searches a list for whatever search term it rece
 
 ### **len()**
 
-The Python len() function can be used to determine the number of items found in the list it accepts as an argument.
+The Python len() function can determine the number of items found in the list it accepts as an argument.
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_9658bbc0e9684f66889abcb521d6f4c0.png)
 
 ### .sort()
 
-The .sort() Python list method will sort the contents of whatever list it is called on. Numerical lists will be sorted in ascending order, and lists of Strings will be sorted into alphabetical order. It modifies the original list, and has no return value.&#x20;
+The .sort() Python list method will sort the contents of whatever list it is called on. Numerical lists will be sorted in ascending order, and lists of Strings will be sorted in alphabetical order. It modifies the original list and has no return value.&#x20;
 
 
 
@@ -87,12 +87,12 @@ The .sort() Python list method will sort the contents of whatever list it is cal
 
 ## Tuples in Python
 
-* Tuple is also an ordered sequence of items as List. Tuple also holds multiple data types.
-* The only difference in Tuple & List is that Tuple is immutable; once created it cannot be changed.
+* Tuple is also an ordered sequence of items as a List. Tuple also holds multiple data types.
+* The only difference between Tuple & List is that Tuple is immutable; once created, it cannot be changed.
 * Creating a tuple is as simple as putting different comma-separated values within round brackets.
 * Example: A = (‘Brush’, ‘Leuven’, 48851964400, 3.14, ‘Mom’)
 
-**Note:** The tutor in this video used python console. Nothing to worry here, you can use the same code and run it on jupyter notebook too.
+**Note:** The tutor in this video used a Python console. Nothing to worry about here; you can use the same code and run it on a Jupyter notebook too.
 
 
 
