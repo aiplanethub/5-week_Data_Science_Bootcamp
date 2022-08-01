@@ -265,6 +265,13 @@ In the video, the tutor has loaded the 'math' module of Python and used function
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V27FQ6UBTPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+
+
+
+
+
 ### Slide Download Link
 
 You can download the slides for this topic from [here](https://docs.google.com/presentation/d/109cjCJpif4lMxdF89voE2juz0at4escqWyuGMzhVV7w/edit?usp=sharing).
