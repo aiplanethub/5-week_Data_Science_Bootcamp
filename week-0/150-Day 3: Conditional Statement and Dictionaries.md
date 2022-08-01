@@ -301,3 +301,8 @@ Try to do the following:
    * .sort()the items in the list stored under the 'backpack' key.
    * Then .remove('dagger') from the list of items stored under the 'backpack' key.
    * Add 50 to the number stored under the 'gold' key.
+
+
+### Slides Download Link
+
+You can download the slides for this topic from [here](https://docs.google.com/presentation/d/1UDoZJSVdGSiLocBTP5B7kSSAGjODgtlM4uLq5FovfeM/edit?usp=sharing).
