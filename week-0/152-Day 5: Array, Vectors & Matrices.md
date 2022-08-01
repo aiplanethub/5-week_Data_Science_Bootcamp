@@ -2,7 +2,7 @@
 
 * Understanding keywords
 * Arrays
-* Lists vs Arrays
+* Lists vs. Arrays
 * Vectors
 * Matrices
 
@@ -10,7 +10,7 @@
 
 ## Understanding Keywords
 
-Before jumping into what arrays are all about, we need to recap what we learned about Lists in the “Introduction to Python Programming” course. In addition, we need to learn about some keywords such as “Dimension”.
+Before jumping into what arrays are all about, we need to recap what we learned about Lists in the "Introduction to Python Programming" course. In addition, we need to know about some keywords such as "Dimension".
 
 ### List
 
@@ -20,8 +20,8 @@ Before jumping into what arrays are all about, we need to recap what we learned 
   * 48851964400
   * 3.14
   * Mom
-* **You could make your own list & include whatever you want in it.** So, in my list, I have included what I do early in the morning, the city I live in, my mobile number, the value of pi to two digits, and mom.
-* If you look at it, my list has different types of data – strings, float, and integer. And, this is the kind of flexibility Python List provides. It can hold different types of data types. **Declaring a List is fairly straightforward. You use square brackets (\[]) and separate the items by a comma.** Let me write an example -
+* **You could make your own list & include whatever you want in it.** So, in my list, I have included what I do early in the morning, my city, my mobile number, the value of pi to two digits, and mom.
+* If you look at it, my list has different types of data – strings, float, and integer. And this is the kind of flexibility Python List provides. It can hold different types of data types. **Declaring a List is pretty straightforward. You use square brackets (\[]) and separate the items by a comma.** Let me write an example -
 
     A = \["Brush", "Leuven", 48851964400, 3.14, "Mom"]
 
@@ -31,7 +31,7 @@ Before jumping into what arrays are all about, we need to recap what we learned 
 
 ### Dimensions
 
-**Now, what are dimensions?** - Let’s take an example of a box to explain this. A box has three dimensions - width, length, and depth (or height). Similarly, in data science, we will be working in “N” dimensions in a data structure (list, arrays, vectors, etc). “N” could be any number.
+**Now, what are dimensions?** - Let's take an example of a box to explain this. A box has three dimensions - width, length, and depth (or height). Similarly, in data science, we will work in "N" dimensions in a data structure (list, arrays, vectors, etc.). "N" could be any number.
 
 
 
@@ -56,28 +56,28 @@ Before jumping into what arrays are all about, we need to recap what we learned 
 
 ### What are Arrays?
 
-* Similar to a list, an array is also a data structure that can hold more than one value at a time.
+* Similar to a list, an array is a data structure that can hold more than one value at a time.
 * **However, an array can only hold a collection of ordered elements of the same data type.**
 
 ### Examples of Arrays & Lists
 
 * [1, 2, 3, 4, 5] is an array of integers
-* [ ‘a’, ‘b’, ‘c’, ‘d’, ‘e’ ] is an array of strings
+* ['a', 'b', 'c', 'd', 'e'] is an array of strings
 * [[1,2,3,4],  
 [5,6,7,8]] is a 2-dimensional array.
 
 **Lists - Examples**
 
-* [ 1, 2, 3, ‘a’, 5 ] is a list containing both integers and a string
+* [ 1, 2, 3, 'a', 5 ] is a list containing both integers and a string
 * [ 1, 2, 3, 4, ‘b’, [ 1, 2, 3 ] ]
 
 ### Why Arrays?
 
-* A combination of Arrays, together with Python could save you a lot of time. Arrays help reduce the overall size of your code.
+* A combination of Arrays and Python could save you a lot of time. Arrays help reduce the overall size of your code.
 
 ### List vs Array
 
-* A list can store any type of values such as integers, strings, etc. Whereas an arrays, stores only single data type values, i.e you can only have an array of integers, an array of strings, etc.
+* A list can store values such as integers, strings, etc. Whereas arrays store only single data type values, i.e., you can only have an array of integers, an array of strings, etc.
 
 
 
@@ -109,13 +109,13 @@ Before jumping into what arrays are all about, we need to recap what we learned 
 
 ### Shape of Matrix
 
-* Since matrix A has two rows and three columns, we write its shape as 2 X 3, pronounced as ‘two by three’
+* Since matrix A has two rows and three columns, we write its shape as 2 X 3, pronounced as 'two by three'.
 
 ### Dimension of Matrix
 
-* The shape of the matrix also tells you its dimensions. The dimension of matrix A is 2 as its shape is 2 X 3.
-* If a matrix has its shape as 2 X 3 X 2 (say for example), the dimension of the matrix would be 3.
-* Don’t worry if you don’t get this point. You will make it as you go along
+* The shape of the matrix also tells you its dimensions. The dimension of matrix A is two as its shape is 2 X 3.
+* If a matrix has its shape as 2 X 3 X 2 (say, for example), the dimension of the matrix would be 3.
+* Don't worry if you don't get this point. You will make it as you go along
 
 ### Matrix
 
