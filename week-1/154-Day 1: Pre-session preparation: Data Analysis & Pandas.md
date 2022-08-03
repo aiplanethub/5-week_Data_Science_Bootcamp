@@ -2,52 +2,52 @@
 
 ### Let's understand Data Analysis with an example
 
-Imagine you own an apple farm and you want to know the number of apples you grow but you are too busy with the farm so you hire someone to count them. You sell your apples too, and you get your apple counter to keep a record of the number of apples you have in the beginning and at the end of the day, every day.&#x20;
+Imagine you own an apple farm and want to know the number of apples you grow, but you are too busy with the farm, so you hire someone to count them. You sell your apples too, and you get your apple counter to keep a record of the number of apples you have at the beginning and the end of the day.&#x20;
 
-Many days and months pass and you put sheet after sheet of the apple count together and you discover patterns and trends in the purchasing behaviour of your customers.
+Many days and months pass, and you put sheet after sheet of the apple count together, and you discover patterns and trends in the purchasing behavior of your customers.
 
-The trends and patterns help you realise that during the colder season, your output of apples are the same but people buy less than during the summer.&#x20;
+The trends and patterns help you realize that your output of apples is the same during the colder season, but people buy less than during the summer.&#x20;
 
 You then set out to dig deeper into this trend and find ways to keep the sales of apples consistent throughout the year, beating your competitors at the game and becoming an apple farm tycoon.
 
-**Apples are your data, tracking them is important, analysis is key**
+**Apples are your data; tracking them is essential, and analysis is key.**
 
-For starters, you will know if your supply of apples matches the market’s demand, as well as the consistency of the ratio of demand to supply throughout the year. Pegging the price to each apple and drawing the cost down gives you your profit.&#x20;
+For starters, you will know if your supply of apples matches the market's demand and the consistency of the ratio of demand to supply throughout the year. Pegging the price to each apple and drawing the cost down gives you your profit.&#x20;
 
-When you have enough data, you will find trends and patterns in your production. These trends can help you understand your own organisation better, help you reduce inefficiency and therefore reduce costs.
+You will find trends and patterns in your production when you have enough data. These trends can help you understand your organization better, help you reduce inefficiency and therefore reduce costs.
 
 ### What is Data Analysis?
 
-As an apple farmer, you collected the count of apple at the beginning of the day and at the end of the day in an organized fashion in the sheets. In the end, you got some insightful information (i.e. trends and patterns in the sale of apples)  from that data. This is called Data Analysis.
+As an apple farmer, you counted the apples at the beginning and end of each day in an organized fashion. In the end, you got some insightful information (i.e., trends and patterns in the sale of apples)  from that data. This is called Data Analysis.
 
-So collecting all the words above, **Data Analysis is a method of collecting and organizing the data and if required manipulating the data so that one can derive some useful information from the data.**
+So collecting all the words above, **Data Analysis is a method of collecting and organizing the data and, if required, manipulating the data so that one can derive some useful information from the data.**
 
 ### Data Analysis and Pandas
 
-Pandas is a tool in Python that helps you collect (or read) the data from a file, organize it in a tabular format, manipulate and clean the data if required to derive the insightful information from the data.
+Pandas is a tool in Python that helps you collect (or read) the data from a file, organize it in a tabular format, and manipulate and clean the data to derive insightful information from it.
 
 ## Introduction to Pandas
 
 ### What is Pandas?
 
 * Officially stands for **Python Data Analysis Library**
-* It is an open - source Python library
+* It is an open-source Python library
 * It is a tool used by data scientists to:
   * read,
   * write,
   * manipulate, and&#x20;
-  * analyse the data.
+  * analyze the data.
 
 ### Why Pandas?
 
 * It helps you to explore and manipulate data in an efficient manner
-* It helps you to analyse large volumes of data with ease. When we say large volumes it is in millions of rows/records.
+* It helps you to analyze large volumes of data with ease. When we say large volumes, it is in millions of rows/records.
 
-### Why Pandas is so Popular?
+### Why is Pandas so Popular?
 
 * Easy to read and learn
 * Extremely fast and powerful
-* Integrates well with other visualisation libraries
+* Integrates well with other visualization libraries
 
 ### Importing Pandas
 
@@ -58,7 +58,7 @@ You can import/load Pandas in your notebook or any other Python IDE in two diffe
 * **import pandas**
 * **import pandas as pd**
 
-Just as we use the 'np' shorthand for NumPy, we will be using 'pd' shorthand for Pandas. It simply serves as an alias and it is easier to use 'pd' instead writing full form ‘pandas’ while coding.
+Just as we use the 'np' shorthand for NumPy, we will use the 'pd' shorthand for Pandas. It simply serves as an alias, and it is easier to use 'pd' instead of writing full form 'pandas' while coding.
 
 In this course, we will use:
 
@@ -68,7 +68,7 @@ In this course, we will use:
 
 ### Pandas Objects
 
-Before we dive into series, let’s do a quick recap of pandas ‘objects’. At the core of the pandas library, there are two fundamental data structures/objects:
+Before we dive into Series, let's do a quick recap of pandas' objects'. At the core of the pandas library, there are two fundamental data structures/objects:
 
 * Series
 * Data Frames
@@ -104,7 +104,7 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 
 * A Series can have its elements as both numbers and strings. 
-* But the data type of the Series is always ‘object’ in this case:
+* But the data type of the Series is always 'object' in this case:
 
 
 
@@ -114,8 +114,8 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 
 
-* Series is like a list in Python which can take any type of value like integers, strings, floats (or decimal values), etc.
-* All the items in series are labeled with indexes:
+* Series is like a list in Python that can take any value like integers, strings, floats (or decimal values), etc.
+* All the items in the Series are labeled with indexes:
 
 
 
@@ -125,11 +125,11 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 
 
-* **By default indexing starts from 0 in Series.** 
+* **By default, indexing starts from 0 in Series.** 
 
-### **Human vs Python Index**
+### **Human vs. Python Index**
 
-* Indexes that we (Human) understand:
+* Indexes that we (humans) understand:
 
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_7f29921bb6fe4d89805e73bde9c929ba.png)
@@ -143,7 +143,7 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 
 
-**Well, it all starts with ‘0’. That’s the only difference.**
+**Well, it all starts with '0'. That's the only difference.**
 
 ### Create a Series
 
@@ -171,11 +171,11 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 ### What is a DataFrame?
 
-* Two dimensional table
+* Two-dimensional table
 * Made up of a collection of Series
 * Structured with labeled axes (rows and columns)
 
-A data frame looks like a table as shown in the image here:
+A data frame looks like a table, as shown in the image here:
 
 
 
@@ -217,7 +217,7 @@ A data frame looks like a table as shown in the image here:
 
 
 * Exercise: Try creating a DataFrame using a NumPy array.
-* **Don’t like python default index starting from ‘0’?** Well, you can give your own column and row indexes:
+* **Don't like python default index starting from '0'?** Well, you can give your own column and row indexes:
 
 
 
@@ -248,7 +248,7 @@ A data frame looks like a table as shown in the image here:
 
 ### A Column is a Series
 
-* A DataFrame is a collection of series.
+* A DataFrame is a collection of Series.
 * A series is a column in a table or a DataFrame.
 
 
@@ -263,4 +263,4 @@ A data frame looks like a table as shown in the image here:
 
 
 
-* There are 3 series in the given DataFrame - ‘Regd. No’, ‘Names’ and ‘Marks%’.
+* There are three series in the given DataFrame - 'Regd. No', 'Names' and 'Marks%'.
