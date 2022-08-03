@@ -3,7 +3,7 @@
 * Data Pre-processing
 * Exploratory Data Analysis
 
-We will focus on Data Pre-processing and Exploratory Data Analysis in the session below.
+We will focus on Data Pre-processing and Exploratory Data Analysis in the next session.
 
 ### Data Pre-processing
 
@@ -27,5 +27,3 @@ The session notebooks are listed below:
 
 * EDA using house pricing dataset: [https://dphi.tech/notebooks/2647](https://dphi.tech/notebooks/2647)
 * Data Preprocessing using Titanic Dataset: [https://dphi.tech/notebooks/2648](https://dphi.tech/notebooks/2648)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ni5BO0mO1x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
