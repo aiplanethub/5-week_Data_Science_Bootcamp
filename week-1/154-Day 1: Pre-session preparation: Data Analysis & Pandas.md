@@ -264,3 +264,7 @@ A data frame looks like a table, as shown in the image here:
 
 
 * There are three series in the given DataFrame - 'Regd. No', 'Names' and 'Marks%'.
+
+### Slide Download Link
+
+You can download the slides for this topic from [here](https://docs.google.com/presentation/d/1quSvfkJBQfk6-p4DZD_nUqYupgRI5Rjqj98MX5fwqpg/edit?usp=sharing).
