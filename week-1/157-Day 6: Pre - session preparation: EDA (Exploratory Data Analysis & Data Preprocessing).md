@@ -3,7 +3,7 @@
 * Data Pre-processing
 * Exploratory Data Analysis
 
-We will be focusing on Data Pre-processing and Exploratory Data Analysis in the below session.
+We will focus on Data Pre-processing and Exploratory Data Analysis in the session below.
 
 ### Data Pre-processing
 
