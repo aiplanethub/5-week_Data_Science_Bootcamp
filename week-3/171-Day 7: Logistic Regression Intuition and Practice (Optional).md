@@ -368,5 +368,5 @@ We will be discussing Multi-Class Logistic Regression in the next module!
 * See the correlation between department and employee retention
 * Separate dependent and independent variables.
 * Split the data into train set and test set
-* Now build Logistic Regression model and make predictions for test data
+* Now build a Logistic Regression model and make predictions for test data
 * Measure the accuracy of the model
