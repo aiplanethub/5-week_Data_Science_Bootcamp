@@ -5,8 +5,8 @@
 
 ### Quick recap of some keywords! Back to basics ;)
 
-* **Features or Variables:** These are the the most common terms that we would come across from now on.
-* **Features and Variables both are the same in a dataset**, they are often interchangeably used. So there is no need to worry about it!
+* **Features or Variables:** These are the most common terms we will come across from now on.
+* **Features and Variables are the same in a dataset**; they are often interchangeably used. So there is no need to worry about it!
 
 
 
@@ -17,7 +17,7 @@
 
 
 
-* Remember the Standard Metropolitan Areas Data used previously? In that dataset **we might be curious to predict “crime\_rate” in future**, so that becomes our target variable and rest of the variables become input variables for building a machine learning model.
+* Remember the Standard Metropolitan Areas Data used previously? In that dataset, **we might be curious to predict "crime\_rate" in future**, so that becomes our target variable, and the rest of the variables become input variables for building a machine learning model.
 
 
 
@@ -59,7 +59,7 @@
 
 
 
-* Let’s consider the following data with 10 entries and our objective is to predict whether someone has purchased a product or not i.e “ProductPurchase” column = Yes or No
+* Let's consider the following data with 10 entries, and our objective is to predict whether someone has purchased a product or not, i.e., the "ProductPurchase" column = Yes or No
 
 
 
@@ -69,17 +69,17 @@
 
 
 
-Here, **Country, Age and Salary are the Input variables** used to predict the **target variable - ProductPurchase**.
+Here, **Country, Age, and Salary are the Input variables** used to predict the **target variable - ProductPurchase**.
 
 ### Separate Input and Target Variables
 
-* We separate the dataset into two new datasets one with input variables - X (Country, Age and Salary) and the other with target variable - y (ProductPurchase).
+* We separate the dataset into two new datasets, one with input variables - X (Country, Age, and Salary) and the other with the target variable - y (ProductPurchase).
 * Adding a snippet from that we used in [our ﬁrst model building exercise](https://github.com/dphi-official/First\_ML\_Model/blob/master/ML\_with\_titanic\_data.ipynb).
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_f58900f01f704dd388c2de31e5a3a0ee.png)
 
-* We’ll now split the x dataset into two separate sets — X\_train and X\_test.
-* Similarly, we’ll split the dataset y into two sets as well — y\_train and y\_test.
+* We'll now split the x dataset into two sets — X\_train and X\_test.
+* Similarly, we'll split the dataset y into two sets — y\_train and y\_test.
 
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_8bd3c4ab38f742eab2d425124460345a.png)
@@ -111,7 +111,7 @@ Here, **Country, Age and Salary are the Input variables** used to predict the **
 
 
 
-* We can take baby steps and learnt things over time!
+* We can take baby steps and learn things over time!
 
 
 
@@ -128,22 +128,22 @@ Here, **Country, Age and Salary are the Input variables** used to predict the **
 
 
 
-### What’s next?
+### What's next?
 
-* We learnt to build our ﬁrst machine learning and also learnt about the 2 other ML models (Linear and Logistic Regression). This means we are already in the game and we know how to build models.
-* Of course, there will be ifs and buts, we might be confused because of too many terminologies, many models etc. That is totally common!
-* Now, let's take some baby steps to understand Logistic Regression. We learn the intuition behind the algorithm ﬁrst and once we understand it well, we ourselves would be curious to learn the maths behind overtime.
+* We learned to build our ﬁrst machine learning and about the two other ML models (Linear and Logistic Regression). This means we are already in the game and know how to build models.
+* Of course, there will be ifs and buts; we might be confused because of too many terminologies, models, etc. That is totally common!
+* Now, let's take some baby steps to understand Logistic Regression. We learn the intuition behind the algorithm ﬁrst, and once we know it well, we ourselves would be curious to learn the maths behind it over time.
 
-**Please note:** Getting overwhelmed with maths or coding or tools shouldn’t be a blocker to learn data science!
+**Please note:** Getting overwhelmed with maths, coding, or tools shouldn't be a blocker to learning data science!
 
 ### What is Classification?
 
-Let’s learn with some examples:
+Let's learn with some examples:
 
-* In **Classiﬁcation we** classify the outcome
+* In **Classiﬁcation, we** classify the outcome
 * **Examples:**
-  * Predict whether a transaction is fraud or not fraud
-  * Predict whether to give loan or not
+  * Predict whether a transaction is fraudulent or not
+  * Predict whether to give a loan or not
   * Predict whether to give college admission or not
   * Predict the grade (Grade A, B, C, D)
   * Note: Classiﬁcation can be more than two
@@ -164,16 +164,16 @@ Let’s learn with some examples:
 
 ### Logistic Regression
 
-* Logistic Regression is one of the basic and popular algorithms to solve a binary classification problems
-* For each input, logistic regression outputs a probability that this input belongs to one of the 2 classes
-  * Set a probability threshold boundary and that determines which class the input belongs to
+* Logistic Regression is one of the primary and popular algorithms for solving binary classification problems
+* For each input, logistic regression outputs a probability that this input belongs to one of the two classes
+  * Set a probability threshold boundary that determines which class the input belongs to
 * Binary classification problems (2 classes):
   * Emails (Spam / Not Spam)
   * Credit Card Transactions (Fraudulent / Not Fraudulent)
   * Loan Default (Yes / No)
-* Now, you may ask why don’t we use Linear Regression? Why do we need a new algorithm?
-* Well, you would ﬁnd all the answers in the video in the next slides.
-* The video below is a must watch, the instructor has brilliantly explained about logistic regression!
+* Now, you may ask, why don't we use Linear Regression? Why do we need a new algorithm?
+* Well, you will ﬁnd all the answers in the video below.
+* The video below is a must-watch; the instructor has brilliantly explained logistic regression!
 
 ### **Must Watch:** Understanding Logistic Regression
 
@@ -210,9 +210,9 @@ Let’s learn with some examples:
 * Logistic regression is used to solve classification problems with discrete categories
   * Binary classification (Classes 0 and 1)
   * Examples: Emails (Spam / Not Spam), Credit Card Transactions (Fraudulent / Not Fraudulent), Loan Default (Yes / No)
-* Let’s say a data scientist named John want to predict that whether a customer will buy insurance or not
-* Remember that linear regression is used to predict a continuous value where the output (y) may vary between +∞ (positive infinity) to -∞ (negative infinity) whereas in this case, the target variable (y) takes only two discrete values, 0 (No insurance) and 1 (Yes, got the insurance).
-* John’s decides to extend the concepts of linear regression to fulfil his requirement. One approach is to take the output of linear regression and map it between 0 and 1, if the resultant output is below a certain threshold (say 0.5), classify it as No (didn’t buy the insurance) whereas if the resultant output is above a certain threshold, classify it as bought the insurance (yes)
+* Let's say a data scientist named John wants to predict whether a customer will buy insurance or not
+* Remember that linear regression is used to predict a continuous value where the output (y) may vary between +∞ (positive infinity) to -∞ (negative infinity). In contrast, in this case, the target variable (y) takes only two discrete values, 0 (No insurance) and 1 (Yes, got the insurance).
+* John decides to extend the concepts of linear regression to fulfill his requirement. One approach is to take the linear regression output and map it between 0 and 1. If the resultant output is below a certain threshold (say 0.5), classify it as No (didn't buy the insurance), whereas if the resulting output is above a certain threshold, classify it as bought the insurance (yes)
 * We then plot a simple linear regression line and set the threshold as 0.5
   * Negative class (Insurance = No)– Age on the left side
   * Positive class (Insurance = Yes) – Age on the right side
@@ -236,7 +236,7 @@ Let’s learn with some examples:
 
 
 
-**Imagine there is an outlier to towards right**
+**Imagine there is an outlier towards the right**
 
 
 
@@ -247,11 +247,11 @@ Let’s learn with some examples:
 
 
 
-* As we can see outlier in the data and will distort the whole linear regression line.
-* Clearly the line is unable to diﬀerentiate the classes with the linear line fit
-* The line should have been at the vertical yellow line which is able to divide the positive and negative classes i.e yes or no for insurance
+* As we can see, an outlier in the data will distort the whole linear regression line.
+* Clearly, the line is unable to diﬀerentiate the classes with the linear line fit
+* The line should have been at the vertical yellow line, which can divide the positive and negative classes, i.e., yes or no for insurance
 
-**Well, life would be much simpler if we had a algorithm that would fit the points like below right? It is a much better fit compared to regression line!**
+**Well, life would be much simpler if we had an algorithm that would fit the points like below, right? It is a much better fit compared to the regression line!**
 
 
 
@@ -269,8 +269,8 @@ Let’s learn with some examples:
 
 * Solution – Transform linear regression to a logistic regression curve
 * Logistic regression is a Sigmoid function
-* Now what does this sigmoid function do?
-  * Sigmoid function takes in any real value and gives a output probability between 0 and 1
+* Now, what does this sigmoid function do?
+  * Sigmoid function takes in any real value and gives an output probability between 0 and 1
 
 
 
@@ -299,11 +299,11 @@ Let’s learn with some examples:
 
 
 
-* There’s no need to go into the depth of how we obtained this formula right now.
+* There's no need to go into the depth of how we obtained this formula right now.
 
 ### Sigmoid Function (Logistic Function/ Logit)
 
-* Take linear regression function and put it into the Sigmoid function
+* Take the linear regression function and put it into the Sigmoid function
 * Sigmoid function outputs probability between 0 and 1
 
 
@@ -318,7 +318,7 @@ Let’s learn with some examples:
 
 
 
-* Sigmoid function outputs probability between 0 and 1 (y axis)
+* Sigmoid function outputs probability between 0 and 1 (y-axis)
 * Default probability threshold is set at 0.5 typically&#x20;
   * Class 0 – Below 0.5
   * Class 1 – Above 0.5
@@ -334,39 +334,39 @@ Let’s learn with some examples:
 
 ### Types of Logistic Regression
 
-Logistic Regression model can be classiﬁed into three groups based on the target variable categories:
+The logistic regression model can be classiﬁed into three groups based on the target variable categories:
 
 * **Binary Logistic Regression**
   * The target variable has two possible categories.
   * Common examples : 0 or 1, yes or no, true or false, spam or no spam, pass or fail, Transactions (Fraudulent / Not Fraudulent), Medical Condition (Diseased/ Not diseased)
 * **Multi- Class Logistic Regression**
   * **Multinomial Logistic Regression**
-    * The target variable has three or more categories which are not in any particular order. So, there are three or more nominal categories.
-    * Examples: Fruits (apple, mango, orange and banana), profession (e.g., with ﬁve groups: surgeon, doctor, nurse, dentist, therapist)
+    * The target variable has three or more categories that are not in any particular order. So, there are three or more nominal categories.
+    * Examples: Fruits (apple, mango, orange, and banana), profession (e.g., with ﬁve groups: surgeon, doctor, nurse, dentist, therapist)
 * **Ordinal Logistic Regression**
   * The target variable has three or more ordinal categories. So, there is intrinsic order involved with the categories.
-  * For example, the student performance can be categorized as poor, average, good and excellent.
+  * Student performance can be categorized as poor, average, good, and excellent.
 
-We will be discussing about Multi-Class Logistic Regression in the next module!
+We will be discussing Multi-Class Logistic Regression in the next module!
 
 ### Notebook on Logistic Regression
 
 * https://dphi.tech/notebooks/891/manish\_kc\_06/logistic\_regression\_insurance
 
-### Let’s do some practice
+### Let's do some practice
 
 **Instruction:**
 
-* Use the raw data github link: https://raw.githubusercontent.com/dphi-official/Datasets/master/HR_comma_sep.csv
-* Or you can download it here from [here](https://www.kaggle.com/giripujar/hr-analytics).
+* Use the raw data GitHub link: https://raw.githubusercontent.com/dphi-official/Datasets/master/HR_comma_sep.csv
+* Or you can download it from [here](https://www.kaggle.com/giripujar/hr-analytics).
 
 **Exercise:**
 
 * Load libraries and data.
-* Do some exploratory data analysis to ﬁgure out which variables have direct and clear impact on employee retention (i.e. whether they leave the company or continue to work)
-* Plot bar charts showing impact of employee salaries on retention
+* Do some exploratory data analysis to ﬁgure out which variables have a direct and clear impact on employee retention (i.e., whether they leave the company or continue to work)
+* Plot bar charts showing the impact of employee salaries on retention
 * See the correlation between department and employee retention
 * Separate dependent and independent variables.
 * Split the data into train set and test set
-* Now build Logistic Regression model and do prediction for test data
+* Now build Logistic Regression model and make predictions for test data
 * Measure the accuracy of the model
