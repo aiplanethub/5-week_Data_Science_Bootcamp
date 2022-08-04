@@ -45,7 +45,7 @@
 
 ### Objective/Problem Statement
 
-* The goal of the model is to **predict whether a passenger survived or not in the Titanic disaster**, given their age, class and a few other features.
+* The goal of the model is to **predict whether a passenger survived or not in the Titanic disaster**, given their age, class, and a few other features.
 
 
 
@@ -67,9 +67,9 @@
 
 ### Understanding the Data
 
-* PassengerId - this is a just a generated Id
-* Pclass - which class did the passenger ride - ﬁrst, second or third
-* Name - self explanatory
+* PassengerId - this is just a generated Id
+* Pclass - which class did the passenger ride - ﬁrst, second, or third
+* Name - self-explanatory
 * Sex - male or female
 * Age
 * SibSp - were the passenger's spouse or siblings with them on the ship
@@ -82,13 +82,13 @@
 
 ### Explore the data
 
-* Let’s get to the notebook:  
+* Let's get to the notebook:  
 https://github.com/dphi-official/Data_Science_Bootcamp/tree/master/Week3
 
 ### Omitting Irrelevant Variables/Columns
 
-* You shouldn’t drop columns or variables just like that! Unless there is a strong premise.
-* Id, port, cabin and name
+* You shouldn't drop columns or variables just like that! Unless there is a strong premise.
+* Id, port, cabin, and name
 
 ### Split the data into train and test
 
@@ -109,7 +109,7 @@ https://github.com/dphi-official/Data_Science_Bootcamp/tree/master/Week3
 
 ### Model Building - Decision Tree
 
-* Now what is this decision tree?
+* Now, what is this decision tree?
 * Well, we all might have seen it by now!
 * Decision Tree Examples
 
@@ -141,7 +141,7 @@ https://github.com/dphi-official/Data_Science_Bootcamp/tree/master/Week3
 
 
 
-### Now what next?
+### Now, what next?
 
 
 
@@ -156,12 +156,12 @@ https://github.com/dphi-official/Data_Science_Bootcamp/tree/master/Week3
 
 
 
-Let’s do it!
+Let's do it!
 
 ### Model Evaluation
 
 * **Evaluate on test dataset to check the performance!**
-* Well, we build a model on historical data and expose them to new data that we would see in future. Technically they will be exposed to unseen data
+* Well, we build a model on historical data and expose them to new data that we would see in the future. Technically they will be exposed to unseen data
 
 ### Overﬁtting - Underﬁtting
 
@@ -190,15 +190,15 @@ Let’s do it!
 
 ### Model Evaluation
 
-We are not done yet, We can improve it signiﬁcantly.
+We are not done yet. We can improve it signiﬁcantly.
 
 How? It will follow in due course!
 
 ### What else can be done in general?
 
 * Feature Selection
-* Cross validation
+* Cross-validation
 * Applying diﬀerent ML Models
-* Hyper parameter tuning etc
+* Hyperparameter tuning, etc.
 
-And as data scientist we must keep optimising and building better models that derives meaningful results.
+And as data scientists, we must keep optimizing and building better models that derive meaningful results.
