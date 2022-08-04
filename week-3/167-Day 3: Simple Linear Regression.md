@@ -7,13 +7,13 @@
 
 ## Dependent and Independent Variables
 
-* So far you’ve been studying input and output/target variables. Commonly, the input variable is known as independent variable and target variable is known as dependent variable.
-* In nutshell, our target variable is nothing but a dependent variable. Why dependent? Because the values of this variable are dependent on other variables (i.e. input variables)
+* So far, you've been studying input and output/target variables. Commonly, the input variable is known as the independent variable, and the target variable is known as the dependent variable.
+* In a nutshell, our target variable is nothing but a dependent variable. Why dependent? Because the values of this variable are dependent on other variables (i.e., input variables)
 * And, our input variables are known as independent variables. Here the values of these variables are not dependent on any other variables.
 
-Let’s look at some examples to learn more about them!
+Let's look at some examples to learn more about them!
 
-* Remember the Standard Metropolitan Areas Data used previously? In that dataset **we might be curious to predict “crime\_rate” in future**, so that becomes our target variable **(dependent variable)** and rest of the variables become input variables (**independent variables**) for building a machine learning model.
+* Remember the Standard Metropolitan Areas Data used previously? In that dataset, **we might be curious to predict "crime\_rate" in future**, so that becomes our target variable **(dependent variable)** and rest of the variables become input variables (**independent variables**) for building a machine learning model.
 
 
 
@@ -30,8 +30,8 @@ Let’s look at some examples to learn more about them!
 
 ### Another Example
 
-* For example, a scientist wants to see if the brightness of light has any effect on a moth being attracted to the light.
-* The brightness of the light is controlled by the scientist. This would be the independent variable.
+* For example, a scientist wants to see if the brightness of light affects a moth being attracted to it.
+* The scientist controls the brightness of the light. This would be the independent variable.
 * How the moth reacts to the different light levels (distance to light source) would be the dependent variable.
 
 ### Equation of a Straight Line
@@ -145,7 +145,7 @@ Too many synonyms to memorise? Let me put them all down at one place for better 
 
 
 
-**But of course we don't want to roughly make a line, we want to compute the exact line that best "fits" our data. That’s where**
+**But of course we don't want to roughly make a line, we want to compute the exact line that best "fits" our data. That's where**
 
 ### What is linear regression? - to summarize
 
@@ -222,7 +222,7 @@ Too many synonyms to memorise? Let me put them all down at one place for better 
 ### Cost Function
 
 * There is also something called as Cost function that is associated with the analysis, it is slightly mathematical, we will be learning more about it soon!
-* Meanwhile, let’s run a simple linear regression model. The link to notebook is given below.
+* Meanwhile, let's run a simple linear regression model. The link to notebook is given below.
 
 ### Notebook for practice
 
