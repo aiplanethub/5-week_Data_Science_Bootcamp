@@ -1,2 +1,0 @@
-<h1>Session: Introduction to Data Science and its applications by Admond Lee</h1>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/wRqY7VvH9Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
