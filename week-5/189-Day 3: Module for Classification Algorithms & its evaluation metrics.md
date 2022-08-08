@@ -237,19 +237,19 @@ You can watch this video from 00:58 to 5:32 explaining the Sensitivity and Speci
 
 ### Confusion Matrix
 
-* Talking about accuracy, our favourite metric!
+* Talking about accuracy, our favorite metric!
 * Accuracy is deﬁned as the ratio of correctly predicted examples by the total examples.
 
-![](https://lh5.googleusercontent.com/LGSb2pPVXrCTvJMSOwEzH1VIVtUvxldAZP2Ohf5E6DyHGTHkq-m9ipl4f2u4IbRkkFuIWv6dlt6saCNM6soMyjpUt3enakWm4MJ1uN4zxfuoFtrMGg3x-GVY\_\_bgrvBgctf9KKSXEBE)
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_3b067fd1d80f42e9abcb2aec8d0efe1f.png)
 
 * **Accuracy:** Overall, how often is the classiﬁer correct?  
 **= (TP+TN)/total** = (100+50)/165 = 0.91
 * Remember, accuracy is a **very useful metric when all the classes are equally important.**
 * But this might not be the case if we are predicting if a patient has cancer. In this example, we can probably tolerate FPs but not FNs.
-* If a cancerous patient is wrongly reported as being ﬁne, it can result in delaying of treatment. Which is not good!
-* So you’ve already learnt how to calculate Precision and Recall and how changing the threshold can aﬀect their values. (SImilar to Sensitivity, Speciﬁcity threshold)
-* But do we necessarily need to spend time on varying the threshold to get the perfect Precision and Recall? Or is there a way to choose this threshold automatically?
-* Let’s take 3 algorithms and try to ﬁnd a metric for combining Precision and Recall.
+* If a cancerous patient is wrongly reported as being ﬁne, it can delay treatment, which is not good!
+* So you've already learned how to calculate Precision and Recall and how changing the threshold can aﬀect their values. (SImilar to Sensitivity, Speciﬁcity threshold)
+* But do we need to spend time varying the threshold to get the perfect Precision and Recall? Or is there a way to choose this threshold automatically?
+* Let's take three algorithms and try to ﬁnd a metric for combining Precision and Recall.
 * How about taking an average of Precision and Recall? (P+R)/2
 
 |             | **Precision (P)** | **Recall (R)** | **Average** |
@@ -259,7 +259,7 @@ You can watch this video from 00:58 to 5:32 explaining the Sensitivity and Speci
 | Algorithm 3 | 0.02              | 1.0            | 0.51        |
 
 * Average tells us that Algorithm 3 is the best (highest value). Whereas Algorithm 3 is a dumb model that predicts y=1 each time and thus gives a recall of 1 (FN =0, TP=1).
-* That means average isn’t a good metric.
+* That means the average isn't a good metric.
 * Researchers found a metric that solves our purpose: The F1 Score!
 
 
@@ -282,7 +282,7 @@ You can watch this video from 00:58 to 5:32 explaining the Sensitivity and Speci
 
 
 
-Let’s apply F1 Score to our problem:
+Let's apply the F1 Score to our problem:
 
 |             | **Precision (P)** | **Recall (R)** | **Average** | **F1 Score** |
 | ----------- | ----------------- | -------------- | ----------- | ------------ |
@@ -290,17 +290,17 @@ Let’s apply F1 Score to our problem:
 | Algorithm 2 | 0.7               | 0.1            | 0.4         | 0.175        |
 | Algorithm 3 | 0.02              | 1.0            | 0.51        | 0.0392       |
 
-The F1 score tells us that Algorithm 1 is the best (highest F1 Score).
+The F1 Score tells us that Algorithm 1 is the best (highest F1 Score).
 
-* **For F1 Score to be large, both P and R need to be large.**
-* It’ll be highest(1) when both P and R are 1
-* Accuracy can be used when the class distribution is similar while F1-score is a better metric when there are imbalanced classes.
+* **For the F1 Score to be large, both P and R need to be large.**
+* It'll be highest(1) when both P and R are 1
+* Accuracy can be used when the class distribution is similar, while F1-score is a better metric when there are imbalanced classes.
 
 ### ROC (Receiver Operator Characteristic) Curve
 
 * An ROC curve is a commonly used way to visualize the performance of a binary classiﬁer, meaning a classiﬁer with two possible output classes.
 * It shows the performance of a classiﬁcation model at all threshold values.
-* It plots 2 parameters:
+* It plots two parameters:
 
 1. True positive rate /Recall (TPR)  
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_b2a9d4c7b256452687044a6c0620be6b.png)
@@ -353,12 +353,12 @@ The F1 score tells us that Algorithm 1 is the best (highest F1 Score).
 
 ### Reading Material
 
-MUST READ - An excellent article explaining Threshold, ROC and AUC in a simple manner:  
+MUST READ - An excellent article explaining Threshold, ROC, and AUC in a simple manner:  
 https://towardsdatascience.com/understanding-the-roc-and-auc-curves-a05b68550b69
 
 ## Which metrics to use when?
 
-This is an important question and we get used to learning these measures over time. Sharing some resources with you all so that it helps you understand what metrics to be used in the context of solving a regression problem.
+This is an important question, and we get used to learning these measures over time. Sharing some resources with you all so that it helps you understand what metrics to use in the context of solving a regression problem.
 
 * 5 Classiﬁcation Metrics every data scientist must know:  
 https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226
