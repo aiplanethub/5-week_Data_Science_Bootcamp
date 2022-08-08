@@ -6,8 +6,8 @@
 
 ### Disclaimer
 
-* We haven’t taught all the algorithms as the Bootcamp was of 5 weeks and we wanted learners to have a good grasp on the concepts that are being taught and not overwhelm them with all the concepts available. Once you know how to handle data and build models, you can easily build diﬀerent kinds of models.
-* Through this module, we’ll be providing material around some of the popular algorithms. In addition, we will sharing some more resources soon.
+* We haven't taught all the algorithms as the Bootcamp was for five weeks, and we wanted learners to grasp the concepts and not overwhelm them with all the available concepts. Once you know how to handle data and build models, you can easily create diﬀerent kinds of models.
+* Through this module, we'll be providing material around some of the popular algorithms. In addition, we will be sharing some more resources soon.
 
 ## Classification vs Regression
 
@@ -34,22 +34,22 @@
 
 
 
-* In order to decide whether to use a regression or classiﬁcation model, the ﬁrst questions you should ask yourself is:
-* Does your target variable have a continuous value or is it discrete (binary or multi-class)?
+* To decide whether to use a regression or classiﬁcation model, the ﬁrst question you should ask yourself is:
+* Does your target variable have a continuous value, or is it discrete (binary or multi-class)?
 
 ### Regression
 
-* If your answer is continuous values, you’re dealing with Regression.
-* This means that if you’re trying to predict quantities like height, income, price, or scores, you should be using a model that will output a continuous number.
-* So if your objective is to determine tomorrow’s temperature (or let’s stock price tomorrow), you should use a regression model.
+* If your answer is continuous values, you're dealing with regression.
+* This means that if you're trying to predict quantities like height, income, price, or scores, you should use a model that will output a continuous number.
+* So, if your objective is to determine tomorrow's temperature (or let's stock price tomorrow), you should use a regression model.
 
 ### Classification
 
-* Let’s come to the second case where if you can clearly see that the target variable is divided into classes. You’ll be using Classiﬁcation here.
+* Let's come to the second case where you can see that the target variable is divided into classes. You'll be using Classiﬁcation here.
 * When the number of classes is 2, it is known as Binary Classiﬁcation.
-* Eg. Will it be hot or cold tomorrow is a binary classiﬁcation problem with 2 classes: Hot and Cold.
+* Eg. Will it be hot or cold tomorrow is a binary classiﬁcation problem with two classes: Hot and Cold.
 * When it is more than 2, it is known as Multi Class Classiﬁcation.
-* Eg. Classifying movies in Good, Average or Bad according to reviews.
+* Eg. Classifying movies as Good, Average, or Bad according to reviews.
 
 ### Classification vs Regression
 
@@ -74,7 +74,7 @@
 
 
 
-It’s important to understand the characteristics of your target variable before you begin running models and forming predictions.
+Understanding your target variable's characteristics is essential before you begin running models and forming predictions.
 
 ### Types of Regression Algorithms
 
@@ -83,13 +83,13 @@ It’s important to understand the characteristics of your target variable befor
 3. Random Forest (RandomForestRegressor)
 4. Other Algorithms
    1. Polynomial Regression
-   2. Lasso, Ridge and Elastic Net Regression
+   2. Lasso, Ridge, and Elastic Net Regression
    3. Support Vector Regressor
-   4. And many more….
+   4. And many more.
 
 ### Linear Regression
 
-* Linear regression is a linear model i.e. a model that assumes a linear relationship (straight-line relationship) between the input variables (x) and the single output variable (y). Below are some useful resources that would help you with Linear Regression
+* Linear regression is a linear model, i.e., a model that assumes a linear relationship (straight-line relationship) between the input variables (x) and the single output variable (y). Below are some useful resources that would help you with Linear Regression
   * **Linear Regression Module:** https://docs.google.com/presentation/d/1Vhgfhjc3Ye90wjgy\_RPt-G2ModxN1O9EI4kfOa2SS0M/edit#slide%3Did.p1
   * **Beginners guide to Linear Regression in Python:** https://dphi.tech/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn/
   * **Simple linear Regression implementation in sklearn:** https://www.youtube.com/watch?v=b0L47BeklTE
@@ -122,8 +122,8 @@ It’s important to understand the characteristics of your target variable befor
 ### Decision Trees
 
 * Regression tree analysis is used when the predicted outcome can be considered a real number (e.g. the price of a house, or a patient's length of stay in a hospital).
-* **Note:** Something that we didn’t address earlier, Decision Trees are called as Classiﬁcation And Regression Trees (CART).
-* **Reason:** They can be used in both a regression and a classiﬁcation context. For this reason they are sometimes also referred to as Classiﬁcation And Regression Trees (CART).
+* **Note:** Something that we didn't address earlier, Decision Trees are also called Classiﬁcation And Regression Trees (CART).
+* **Reason:** They can be used in both regression and classiﬁcation contexts. For this reason, they are sometimes called Classiﬁcation And Regression Trees (CART).
 * **Module on Decision Trees:** https://docs.google.com/presentation/d/1BCwLdFQqFLHR2-7APyoWh5u1b6Jo3wq17nj-8s2H\_mg/edit#slide%3Did.p1
 
 ### Resources on Decision Tree Regressor
@@ -132,7 +132,7 @@ It’s important to understand the characteristics of your target variable befor
 
 ### Random Forest for regression - Regression Forest
 
-* Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
+* Random forest builds multiple decision trees and merges them to get a more accurate and stable prediction.
 * Regression Forests (or Random forest Regressors) are an ensemble (combination) of diﬀerent regression trees (decision trees for regression). Each leaf contains a distribution for the continuous output variable/s.
 
 
@@ -157,7 +157,7 @@ It’s important to understand the characteristics of your target variable befor
 
 * **POLYNOMIAL REGRESSION:**
 
-Polynomial Regression is a form of linear regression in which the relationship between the independent variable X and dependent variable y is not linear (cannot be represented by a straight line).
+Polynomial regression is a form of linear regression in which the relationship between the independent variable X and dependent variable y is not linear (cannot be represented by a straight line).
 
 
 
@@ -169,26 +169,26 @@ Polynomial Regression is a form of linear regression in which the relationship b
 
 
 
-Which of the following do you think is a better ﬁtted line for the green data points?
+Which of the following do you think is a better-ﬁtted line for the green data points?
 
 The second one. The only diﬀerence is that instead of using the equation of a straight line, we are using a diﬀerent equation of higher order polynomial.
 
 Learn more about Polynomial Regression: https://towardsdatascience.com/polynomial-regression-bbe8b9d97491
 
-* **LASSO, RIDGE AND ELASTIC NET REGRESSION:**
+* **LASSO, RIDGE, AND ELASTIC NET REGRESSION:**
 
-There are extensions of the linear regression model training called as **regularization methods**. They aim to minimize the error, while keeping the complexity of the model low.
+There are extensions of the linear regression model training called **regularization methods**. They aim to minimize the error while keeping the complexity of the model low.
 
 Two popular examples of regularization procedures for linear regression are:
 
 1. **Lasso Regression** (called **L1 regularization**).
 2. **Ridge Regression:** (called **L2 regularization**).
 
-These methods are eﬀective to use when there is collinearity in your input variables and there’s a chance of overﬁtting the training data.
+These methods are eﬀective when there is collinearity in your input variables, and there's a chance of overﬁtting the training data.
 
 There is another commonly used model of regression called **Elastic Net**. It **incorporates penalties from both L1 and L2 regularization**.
 
-You can read more about Lasso, Ridge and Elastic Net Regression here:
+You can read more about Lasso, Ridge, and Elastic Net Regression here:
 
 https://hackernoon.com/an-introduction-to-ridge-lasso-and-elastic-net-regression-cca60b4b934f
 
@@ -210,8 +210,8 @@ https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-
 ## Regression Model Evaluation
 
 1. Cost function
-2. What is predicted and expected/true value?
-3.  Evaluation Metrics
+2. What is the predicted and expected/actual value?
+3. Evaluation Metrics
     1. RMSE
     2. MAE
     3. MSE
@@ -220,20 +220,20 @@ https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-
 
 **What?**
 
-* Now that we built a model, we need to measure its performance right? and understand if it works well or not. Cost function measures the performance of a Machine Learning model for given data. It quantiﬁes the error between predicted values and expected values and presents it in the form of a single real number.
-* Depending on the problem Cost Function can be formed in many diﬀerent ways. The purpose of this function is to be either:
-* **Minimized** - then returned value is usually called **cost, loss or error.** The goal is to ﬁnd the values of model parameters for which Cost Function return as small number as possible.
-* **Maximized** - then the value it yields is named a **reward**. The goal is to ﬁnd values of model parameters for which returned number is as large as possible.
+* Now that we built a model, we need to measure its performance, right? and understand if it works well or not. The cost function measures the performance of a Machine Learning model for given data. It quantiﬁes the error between predicted and expected values and presents it as a single real number.
+* Depending on the problem, Cost Function can be formed in many diﬀerent ways. The purpose of this function is to be either:
+* **Minimized** - the returned value is usually called **cost, loss, or error.** The goal is to ﬁnd the values of model parameters for which Cost Function returns as small a number as possible.
+* **Maximized** - the value it yields is named a **reward**. The goal is to ﬁnd values of model parameters for which returned number is as large as possible.
 
-### What is predicted and expected value?
+### What is the predicted and expected value?
 
 * **Predicted value:** As the name says is the predicted value of your machine learning model.
 * **Expected/Actual value:** Is the true value(or the label present in your data)
-* Often machine learning models are not 100% accurate or perfect, then tend to deviate from the true value or expected value.
-* **Explaining with an example:** If we are predicting the age of a person based on few input variables or features.
+* Often, machine learning models are not 100% accurate or perfect and tend to deviate from the actual or expected value.
+* **Explaining with an example:** If we are predicting a person's age based on a few input variables or features.
 * Our machine learning model predicted the age as 28 years
 * However, the actual age of the person is 29 years.
-* Here **28 years is predicted value** and **29 years is expected value or true value.** As data scientists, we try to minimize the error while building models.
+* Here **28 years is the predicted value** and **29 years is the expected or actual value.** As data scientists, we try to minimize errors while building models.
 
 ### Cost Function
 
@@ -248,7 +248,7 @@ https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-
 
 
 
-* The diﬀerence between the true value and the model’s predicted value is called **residual.**
+* The diﬀerence between the actual value and the model's predicted value is called **residual.**
 
 ### Cost Function Types/Evaluation Metrics
 
@@ -275,7 +275,7 @@ https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-
 ### Root Mean Squared Error (RMSE)
 
 * It is just the square root of the mean square error.
-* It is preferred more in some cases because the errors are ﬁrst squared before averaging which poses a high penalty on large errors. This implies that **RMSE is useful when large errors are undesired.**
+* It is preferred in some cases because the errors are ﬁrst squared before averaging, which poses a high penalty on large errors. This implies that **RMSE is useful when large errors are undesired.**
 
 
 
@@ -286,7 +286,7 @@ https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-
 ### Mean Absolute Error(MAE)
 
 * MAE is the absolute diﬀerence between the target value and the value predicted by the model.
-* MAE **does not penalize the errors as eﬀectively as mse** making it not suitable for use-cases where you want to pay more attention to the outliers.
+* MAE **does not penalize the errors as eﬀectively as MSE**, making it unsuitable for use-cases where you want to pay more attention to the outliers.
 
 
 
@@ -330,7 +330,7 @@ https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-
 
 ## Which metrics to use when?
 
-This is an important question and we get used to learning these measures over time. Sharing some resources with you all so that it helps you understand what metrics to be used in the context of solving a regression problem.
+This is an important question, and we get used to learning these measures over time. Sharing some resources with you all so that it helps you understand what metrics to use in the context of solving a regression problem.
 
 * https://medium.com/usf-msds/choosing-the-right-metric-for-machine-learning-models-part-1-a99d7d7414e4  
-(you may ignore “Bonus” section in the article for time being)
+(you may ignore the "Bonus" section in the article for the time being)
