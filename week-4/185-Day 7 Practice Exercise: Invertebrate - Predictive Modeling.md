@@ -1,1 +1,0 @@
-<p>Invertebrate - Predictive Modeling:&nbsp;<a href="https://dphi.tech/practice/challenge/3" target="_blank">https://dphi.tech/practice/challenge/3</a></p>
