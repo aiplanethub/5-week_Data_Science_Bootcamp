@@ -1,3 +1,0 @@
-<p><strong>Random Forest Model:</strong>&nbsp;<a href="https://dphi.tech/notebooks/894/manish_kc_06/random_forest_for_beginners?" target="_blank">https://dphi.tech/notebooks/894/manish_kc_06/random_forest_for_beginners?</a></p>
-
-<h4><strong>Model Optimization with Random Forest:</strong>&nbsp;<a href="https://dphi.tech/notebooks/865/manish_kc_06/model-optimization-with-random-forest" target="_blank">https://dphi.tech/notebooks/865/manish_kc_06/model-optimization-with-random-forest</a></h4>
