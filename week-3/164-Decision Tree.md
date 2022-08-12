@@ -1,6 +1,6 @@
 ## Learning Objectives
 
-* **Decision Trees**
+* Decision Trees
 
 ## Understanding Decision Trees
 
