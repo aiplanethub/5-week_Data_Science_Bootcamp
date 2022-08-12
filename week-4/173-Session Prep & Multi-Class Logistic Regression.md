@@ -105,7 +105,7 @@ Let's learn with some examples:
 * Let's say we are building a model which predicts if a transaction is fraudulent or not
 * Let's imagine we build a basic model which always predicts that a transaction is not fraudulent. Guess what would be the accuracy of this model.
 * **\~99% !!** (You may ask why. Less than 1% of transactions are usually fraudulent, and there is a huge class imbalance. So even if you ﬁt a wrong model that always predicts a transaction to be not fraudulent, the accuracy would remain 99% owing to class imbalance)
-* Impressive, right? Well, the probability of a bank buying this model is absolute zero. ????
+* Impressive, right? Well, the probability of a bank buying this model is absolute zero.
 * In a problem with a significant class imbalance, a model can predict the value of the majority class for all predictions and achieve a high classification accuracy.
 * While our model has a stunning accuracy, this is an apt example where accuracy is not the right metric.
 * **Watch till 1 min 14 secs to understand why accuracy is a bad metric for model performance**
