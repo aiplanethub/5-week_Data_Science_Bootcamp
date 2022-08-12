@@ -21,11 +21,11 @@ Not very inspiring, right? Two questions immediately arise: where did all this c
 
 **Basic definition:** Linear algebra is a sub-field of mathematics concerned with vectors, matrices, and linear transforms.
 
-### Do You Really Need Linear Algebra?
+### Do You Need Linear Algebra?
 
 * It depends on your goal.
-* If you just want to use AI and machine learning tools as a black box, you arguably just need enough math to figure out if your problem fits the model's premise.
-* But, if you want to develop new ideas, Linear Algebra is a must-learn. I don't mean you need to learn everything concerning math. Doing so, you will be stuck at everything and lose motivation towards other more important things like calculus/stats.
+* If you want to use AI and machine learning tools as a black box, you arguably need just enough math to figure out if your problem fits the model's premise.
+* But, Linear Algebra is a must-learn if you want to develop new ideas. I don't mean you need to learn everything concerning math. Doing so, you will be stuck at everything and lose motivation towards other more important things like calculus/stats.
 * Mathematics in data science and machine learning is not about crunching numbers but about what is happening, why it's happening, and how we can play around with different things to obtain the desired results.
 
 ### Linear Algebra
@@ -39,7 +39,7 @@ Not very inspiring, right? Two questions immediately arise: where did all this c
 $2x + y = 100$       Equation (1)    
 $x + 2y = 100$       Equation (2)
 * To find the prices of chocolate and apple, we need the values of 'x' and 'y' such that it satisfies both the equations.
-* The basic problem of linear algebra is to find these values of 'x' and 'y' which is nothing but the solution to a set of linear equations.
+* The fundamental problem of linear algebra is to find these values of 'x' and 'y' which is nothing but the solution to a set of linear equations.
 
 ### Graphical Representation of two Equations
 
@@ -60,7 +60,7 @@ The intersection point is the solution to these two equations.
 
 ### Complicating the Problem
 
-* In the earlier example, we had two variables, 'x' representing the price of a chocolate and 'y' representing the price of an apple.
+* In the earlier example, we had two variables, 'x' representing the price of chocolate and 'y' representing the price of an apple.
 * Now, suppose you are given a set of three conditions with three variables, say
 'x', 'y', and 'z', and asked to find the value of three variables.
 * The three conditions are given as:  
@@ -97,7 +97,7 @@ In the matrix above:
 
 
 ### Linear Equations in Matrix Form
-* Earlier we had two linear equations:  
+* Earlier, we had two linear equations:  
 $2x + y = 100$       Equation (1)    
 $x + 2y = 100$       Equation (2)
 * The above two linear equations can be represented in the matrix
@@ -123,7 +123,7 @@ is a column vector.
 
 ### Derivative As A Concept
 
-Don’t worry if you don’t know what slope means, it’s explained in the video itself:
+Don't worry if you don't know what slope means; it's explained in the video itself:
 
 
 
