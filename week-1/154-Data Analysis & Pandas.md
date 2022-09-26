@@ -40,8 +40,8 @@ Pandas is a tool in Python that helps you collect (or read) the data from a file
 
 ### Why Pandas?
 
-* It helps you to explore and manipulate data in an efficient manner
-* It helps you to analyze large volumes of data with ease. When we say large volumes, it is in millions of rows/records.
+* It helps you explore and manipulate data in an efficient manner
+* It helps you analyze large volumes of data with ease. When we say large volumes, it is in millions of rows/records.
 
 ### Why is Pandas so Popular?
 
@@ -68,7 +68,7 @@ In this course, we will use:
 
 ### Pandas Objects
 
-Before we dive into Series, let's do a quick recap of pandas' objects'. At the core of the pandas library, there are two fundamental data structures/objects:
+Before we dive into Series, let's do a quick recap of pandas objects. At the core of the pandas library, there are two fundamental data structures/objects:
 
 * Series
 * Data Frames
