@@ -3,7 +3,7 @@
 * Conditional Statement
 * Dictionary
 
-## Conditional Statement: if-else-elif
+## Conditional Statement: if-elif-else
 
 * In the real world, we commonly evaluate information around us and then choose one course of action or another based on what we observe:  
 If the weather is nice, then I'll go for a walk. (It's implied that I won't go for a walk if the weather isn't nice.)
