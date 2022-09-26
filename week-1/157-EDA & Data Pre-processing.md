@@ -18,8 +18,8 @@ We will focus on Data Pre-processing and Exploratory Data Analysis in the next s
 
 ### Notebook Links
 
-* **Data Pre-processing:** [https://dphi.tech/notebooks/855/manish\_kc\_06/day-4-not](https://dphi.tech/notebooks/855/manish\_kc\_06/day-4-notebooks-data-pre-processing) [ebooks-data-pre-processing](https://dphi.tech/notebooks/855/manish\_kc\_06/day-4-notebooks-data-pre-processing)
-* **EDA:** [https://dphi.tech/notebooks/854/manish\_kc\_06/day-1-notebook-exploratory-data-analysis-on-wine-dataset](https://dphi.tech/notebooks/854/manish\_kc\_06/day-1-notebook-exploratory-data-analysis-on-wine-dataset)
+* **Data Pre-processing:** https://dphi.tech/notebooks/855/manish_kc_06/day-4-notebooks-data-pre-processing
+* **EDA:** https://dphi.tech/notebooks/854/manish_kc_06/day-1-notebook-exploratory-data-analysis-on-wine-dataset
 
 ### Expert Session on EDA & Data Preprocessing
 
