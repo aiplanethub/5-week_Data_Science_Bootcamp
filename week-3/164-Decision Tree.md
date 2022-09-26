@@ -34,7 +34,7 @@ https://www.datacamp.com/community/tutorials/decision-tree-classification-python
 
 ### Let’s do some practice
 
-* Now that we know how to build a simple decision tree model on one of the datasets that we used previously.
+* Now we know how to build a simple decision tree model on one of the datasets that we used previously.
 * **Objective:** Imagine you were hired as a Data Scientist/Analyst by the Central Police Oﬃce of Metropolitan areas, and your job is now to create a predictive model for crime_rate. For now, let’s focus on building a simple decision tree.
 * **Link to the Dataset:**  
 https://docs.google.com/spreadsheets/d/1rruRHMCALDpWSSzKIHTl9Yello4y-xsWaIL1V8b9dwU/edit?usp=sharing
