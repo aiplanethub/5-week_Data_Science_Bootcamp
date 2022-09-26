@@ -6,7 +6,7 @@
 ## Reading Data Files
 
 * It is always good to be able to create a dataframe by hand. But, generally, we don't make our data by hand. We work on the data that already exists.
-* Data exists in several formats. The most basic of these is the **CSV** file**. CSV stands for comma-separated-value**
+* Data exists in several formats. The most basic of these is the **CSV** file. CSV stands for comma-separated-values.
 
 ### **What is a CSV file?**
 
@@ -60,7 +60,7 @@
 
 ### Working with CSV files in Python
 
-* For working CSV files in Python, there is an inbuilt function named read\_csv.
+* For working with CSV files in Python, there is an inbuilt module named csv.
 * However, a common method for working with CSV files is using Pandas. It makes importing and analyzing data much easier.
 * One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other types of files.&#x20;
 
