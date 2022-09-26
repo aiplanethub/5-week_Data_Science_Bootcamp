@@ -2,7 +2,8 @@
 
 * When writing code in Python, it's important to ensure that your code can be easily understood by others, say by your friend who wants to see your code.
 * Python ignores everything after the hash mark and up to the end of the line. You can insert them anywhere in your code!
-* A shortcut for adding comments is by using CTRL + /
+* A shortcut for adding comments is by using CTRL + /  
+Simply select all the lines you want to comment out, then press Ctrl + /, and all the lines will get commented out!
 
 
 
@@ -29,7 +30,7 @@
 
 ### Arithmetic Operator
 
-Using Python, we can perform some basic arithmetic operations such as additions, subtraction, multiplication, etc.
+Using Python, we can perform some basic arithmetic operations such as addition, subtraction, multiplication, etc.
 
 Example:\
 \
@@ -139,14 +140,14 @@ x \* y  # multiplication
 * **Definition:** Data structure is a general computer science concept. Its definition reads as follows on Wikipedia:
 * **Data structure is a data organization, management, and storage format that enables efficient access and modification.** More precisely, a data structure is a collection of data values, their relationships, and the functions or operations that can be applied to the data.
 * Whereas Data type is a concept specific to a programming language. In a way, it is a concrete implementation of a data structure in a particular programming language (Python or any other language).
-* \*\*The definition of what constitutes a "type" varies among programming languages. \*\*Talking about Python, there are basic data types like int, float, string, etc. You can use the built-in types like list, set, etc., which we will cover in this session.
+* The definition of what constitutes a "type" varies among programming languages. Talking about Python, there are basic data types like int, float, string, etc. You can use the built-in types like list, set, etc., which we will cover in this session.
 * Calling these data types as data structures won't be wrong because there is no significant difference between the two in Python.
 
 
 
 ### Data Types in Python
 
-*   Before we proceed to discuss what data types in Python are, there are some basic questions that we would discuss. **What is data?**
+*   Before we proceed to discuss what data types in Python are, there are some basic questions that we will discuss. **What is data?**
 * Let's say you are going to meet a friend at her office. When you go to visit her office, the security guard asks you to make an entry in the register before you enter the office. A typical entry register asks for the following information –
 
 
@@ -163,11 +164,11 @@ x \* y  # multiplication
   * Some are numerical digits, and
   * There are some special characters, dash (-) and colon ( : ).
   * In this example, our data is divided into four categories – name, phone number, address, and time.
-  *   This\*\* categorization of data, **based on their characteristic & our need,** is called data types.
+  *   This categorization of data, **based on their characteristic & our need,** is called data types.
 
 *   Some of the data types in Python include:
 
-    * Integer: whole numbers, positive or negative numbers. E.g.: 100
+    * Integer: whole numbers, positive or negative numbers. E.g., 100
     * Float: Floating-point numbers are real numbers, rational or irrational. In most cases, this means numbers with decimal fractions. Example: 123.45
 
     * String: Strings are sequences of characters, or text, enclosed in quotes. Example: "any text", "Karen" \\
@@ -214,9 +215,9 @@ You can get the data type of any object by using the type( ) function:
 ### Python Strings
 
 * Strings are a sequence of characters.&#x20;
-* Let us see some examples of String: My name is Rahul, Rahul, Go home. All these are examples of String.&#x20;
+* Let us see some examples of String: "My name is Rahul", "Rahul", "Go home". All these are examples of String.&#x20;
 * In Python, Strings are called str.&#x20;
-* There is a specific way of defining String in Python – it is defined within single quotes (') or double quotes ("), or even triple quotes ("').&#x20;
+* There is a specific way of defining String in Python – it is defined within single quotes (') or double quotes ("), or even triple quotes (''').&#x20;
 
 ### Accessing String Elements
 
@@ -250,7 +251,7 @@ You can get the data type of any object by using the type( ) function:
 
 * We can also call out a range of characters from the string using string slicing.
 * Specify the start and end indexes separated by a colon to return a part of the string. Note that the character of the end index is not included.
-* Suppose we want to print World from the string "Hello World". We can do so as below:
+* Suppose we want to print World from the "Hello World" string. We can do so as below:
 
 
 
@@ -318,4 +319,4 @@ You can get the data type of any object by using the type( ) function:
 
 * Python has a set of built-in methods you can use on strings.
 * Must learn: Learn about important string methods from the below cheatsheet: [https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-strings/cheatsheet](https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-strings/cheatsheet)&#x20;
-* Tip: If you cannot follow, run the code and make the difference.
+* Tip: If you cannot follow, run the code and make out the difference.
