@@ -38,7 +38,10 @@ Let's look at some examples to learn more about them!
 
 * In algebra, a linear equation (equation of a straight line) typically takes the form y = mx + b, where m and b are constants, **x is the independent variable, and y is the dependent variable.**
 * Basically, the value of y is calculated using x, whereas x has no dependence on the value of y.
-* y = how far up x = how far along m = Slope or Gradient (how steep the line is) b = value of y when x=0
+* y = how far up  
+x = how far along  
+m = Slope or Gradient (how steep the line is)  
+b = value of y when x=0
 
 
 
@@ -169,7 +172,7 @@ Too many synonyms to memorize? Let me put them all down in one place for better 
 
 
 
-* **This above-drawn line is way oﬀ. For example, according to the line, a 1000 sq foot house should sell for $310,000, whereas we know it actually sold for $200,000.**
+* **This above-drawn line is way oﬀ.** For example, according to the line, a 1000 sq foot house should sell for \$310,000, whereas we know it actually sold for \$200,000.
 
 ### **Here's a better line:**
 
@@ -189,8 +192,8 @@ Too many synonyms to memorize? Let me put them all down in one place for better 
 
 
 
-* In this case, the **residuals** (absolute diﬀerence between the actual and the predicted value) are $5000, $15000, and $5000.
-* This line is an average of **$8,333** dollars oﬀ **** (adding all the distances and dividing by 3).
+* In this case, the **residuals** (absolute diﬀerence between the actual and the predicted value) are \$5000, \$15000, and \$5000.
+* This line is an average of **$8,333** dollars oﬀ (adding all the distances and dividing by 3).
 * This **$8,333** is the **cost** of using this line.
 
 ### Cost
