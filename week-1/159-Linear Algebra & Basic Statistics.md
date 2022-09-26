@@ -296,7 +296,7 @@ Note: we will get used to these terms soon; no need to worry too much about it. 
 
 Consider the list of numbers: $[10, 20, 40, 10, 70]$.
 * The mean of the numbers is $30$.
-* Difference of each data from the mean: $-20, -10, 10, -20, 40$.
+* Difference of each data point from the mean: $-20, -10, 10, -20, 40$.
 * Square of all the differences: $400, 100, 100, 400, 1600$
 * Take the average of the squares:  
 $\frac{400 + 100 + 100 + 400 + 1600}{5} = \frac{2600}{5} = 520$
