@@ -21,7 +21,7 @@ You must look at this real-life implementation of putting data science skills in
 Dataset: The data is learners' data for quizzes on the DPhi Learning Platform. So it is a real dataset :)
 
 * Modified Notebook link:  
-[https://dphi.tech/notebooks/890/manish\_kc\_06/leaderboard\_plot\_dphi\_learners\_dataset\_modified?](https://dphi.tech/notebooks/890/manish\_kc\_06/leaderboard\_plot\_dphi\_learners\_dataset\_modified)
+https://dphi.tech/notebooks/890/manish_kc_06/leaderboard_plot_dphi_learners_dataset_modified
 * Link to the Dataset:  
 [DPhi Learner Groups Dataset](https://raw.githubusercontent.com/dphi-official/Datasets/master/DPhi%20-%20Learners%20-%20Beginners%20%26%20Absolute%20Beginners%20-%20Real%20Dataset%20-%20DPhi_Learners.csv)
 * His original notebook can be found [here](https://github.com/dphi-official/Data\_Science\_Bootcamp/blob/master/Advanced\_Material/Leaderboard\_Plots/Leader\_board\_plots\_original.ipynb)**.**
