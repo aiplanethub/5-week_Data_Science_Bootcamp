@@ -117,7 +117,7 @@ In other words, they need a machine learning model that would predict the possib
 
 * Another data splitting that we need to do is dividing the data into Train and Test Sets.
 * Imagine drawing a horizontal line between the table, let’s say, after the 8th entry. That’s what Train Test Split looks like. The whole table is now divided into 4 parts.
-* PLEASE NOTE: The dataset should always be shuﬄed before splitting. We’ve used an unshuﬄed version here just for the explanation purpose.
+* PLEASE NOTE: The dataset should always be shuﬄed before splitting. We’ve used an unshuﬄed version here just for explanation.
 
 
 
