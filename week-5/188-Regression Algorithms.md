@@ -41,7 +41,7 @@
 
 * If your answer is continuous values, you're dealing with regression.
 * This means that if you're trying to predict quantities like height, income, price, or scores, you should use a model that will output a continuous number.
-* So, if your objective is to determine tomorrow's temperature (or let's stock price tomorrow), you should use a regression model.
+* So, if your objective is to determine tomorrow's temperature (or, say, stock price tomorrow), you should use a regression model.
 
 ### Classification
 
