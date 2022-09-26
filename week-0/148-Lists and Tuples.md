@@ -10,10 +10,10 @@
 * **Well, this is my list. You could make your list & include whatever you want in it.** So, in my list, I have included what I do early in the morning, my city, my mobile number, the value of pi to two digits, and mom. It has different types of data – strings, float, and integer. 
 
 
-* **Well, this is the kind of flexibility Python List provides. It can hold different types of data types. Declaring a List is pretty straightforward. You use square brackets (\[]) and separate the items by a comma.** Let me write an example -  
+* **This is the kind of flexibility Python List provides.** It can hold different types of data types. Declaring a List is pretty straightforward. **You use square brackets (\[]) and separate the items by a comma.** Let me write an example -  
 A = \["Brush", "Leuven", 48851964400, 3.14, "Mom"]
 
-* **Lists are mutable.** Say if you want to change some item on a List, you can do that. For example, if I don’t like ‘Brush’, and want to replace this with ‘Morning Walk’, I can do it –  
+* **Lists are mutable.** Say if you want to change some item on a List, you can do that. For example, if I don’t like ‘Brush’ and want to replace this with ‘Morning Walk’, I can do it –  
   A = \["Morning Walk", "Leuven", 48851964400, 3.14, "Mom"]
 * Some **essential features** of Python lists are:
   * Collection of values
