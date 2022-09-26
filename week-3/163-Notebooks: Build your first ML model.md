@@ -1,7 +1,7 @@
-<p><strong>Introduction to the model building:</strong> 
+**Introduction to the model building:**
 
-<a href="https://dphi.tech/notebooks/857/manish_kc_06/day-1-notebooks-intro-to-model-building?" target="_blank">https://dphi.tech/notebooks/857/manish_kc_06/day-1-notebooks-intro-to-model-building?</a>&nbsp;</p>
+https://dphi.tech/notebooks/857/manish_kc_06/day-1-notebooks-intro-to-model-building?
 
-<p><strong>ML with Titanic Dataset:</strong>
+**ML with Titanic Dataset:**
 
- <a href="https://dphi.tech/notebooks/858/manish_kc_06/day-1-notebooks-ml-with-titanic-dataset?" target="_blank">https://dphi.tech/notebooks/858/manish_kc_06/day-1-notebooks-ml-with-titanic-dataset?</a></p>
+https://dphi.tech/notebooks/858/manish_kc_06/day-1-notebooks-ml-with-titanic-dataset?
