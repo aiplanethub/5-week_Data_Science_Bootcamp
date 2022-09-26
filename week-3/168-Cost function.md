@@ -24,7 +24,7 @@
   * Square all the diﬀerences
   * Take the average of the squares.
 
-* **Standard Deviation:** It shows you how much your data is spread around the mean. Its symbol is ???? (the greek letter sigma). **It is the square root of the variance.**
+* **Standard Deviation:** It shows you how much your data is spread around the mean. Its symbol is $\sigma$ (the greek letter sigma). **It is the square root of the variance.** Therefore, the variance is often represented as $\sigma^2$.
 
 
 
@@ -96,7 +96,7 @@
 
 ### Coming back to Linear Regression
 
-**This will be in continuation of our yesterday's slides!**
+**This will be in continuation of our yesterday's topic!**
 
 ## Cost Function
 
