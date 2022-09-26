@@ -13,13 +13,13 @@
 ## **Measures of Dispersion**
 
 * **Range:** The diﬀerence between the highest and lowest values in the data set. \
-  For a given list of numbers: 10, 20, 40, 10, 70 the range is 70 - 10 = 60.\
+  For a given list of numbers: 10, 20, 40, 10, 70 the range is 70 - 10 = 60.
 
 * **Variance:** The average of the squared diﬀerences from the mean. Steps to calculate variance:
   * Calculate mean (mean is nothing but average)
   * Find the diﬀerence of each data from mean
   * Square all the diﬀerences
-  * Take the average of the squares.\
+  * Take the average of the squares.
 
 * **Standard Deviation:** It shows you how much your data is spread around the mean. Its symbol is ???? (the greek letter sigma). It is the square root of the **variance.**
 
