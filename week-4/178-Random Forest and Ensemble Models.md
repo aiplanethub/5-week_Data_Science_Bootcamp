@@ -149,7 +149,7 @@
   * Boosting Eg: Adaboost, Gradient Boost, Extreme Gradient Boost
 * We'll learn about Bagging and Boosting techniques. There is nothing to worry about; they are just like any other algorithms like linear, logistic, and decision trees.
 
-### Bagging (Bootstrap AAregatING)
+### Bagging (Bootstrap AGGregatING)
 
 * The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result.
 * Here's a question: If you create all the models on the same training data and combine it, will it be useful? There is a high chance that these models will give the same result since they are getting the same input. So how can we solve this problem? A technique called bootstrapping helps us with that.
