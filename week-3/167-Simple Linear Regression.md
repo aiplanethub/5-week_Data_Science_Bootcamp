@@ -229,4 +229,4 @@ Too many synonyms to memorize? Let me put them all down in one place for better 
 
 ### Notebook for practice
 
-* https://dphi.tech/notebooks/892/manish\_kc\_06/introduction\_to\_linear\_regression?
+* https://aiplanet.com/notebooks/892/manish/_kc_06introduction_to_linear_regression
