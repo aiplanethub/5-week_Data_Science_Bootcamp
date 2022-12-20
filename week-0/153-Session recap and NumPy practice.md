@@ -5,7 +5,7 @@
 
 ## Notebook
 
-* You can access the notebook of the NumPy session delivered by Gayatri here:  https://dphi.tech/notebooks/851/manish\_kc\_06/introduction-to-numpy
+* You can access the notebook of the NumPy session delivered by Gayatri here: https://aiplanet.com/notebooks/851/manish_kc_06/introduction-to-numpy
 * **Option 1:** (If you are using it in Google Colab, go to File → click “save a copy in drive” to start working on the notebook)
 * **Option 2:** If you want to use Jupyter notebook. Click “File” → “Download .ipynb file”
 
