@@ -18,12 +18,12 @@ We will focus on Data Pre-processing and Exploratory Data Analysis in the next s
 
 ### Notebook Links
 
-* **Data Pre-processing:** https://dphi.tech/notebooks/855/manish_kc_06/day-4-notebooks-data-pre-processing
-* **EDA:** https://dphi.tech/notebooks/854/manish_kc_06/day-1-notebook-exploratory-data-analysis-on-wine-dataset
+* **Data Pre-processing:** https://aiplanet.com/notebooks/855/manish_kc_06/day-4-notebooks-data-pre-processing
+* **EDA:** https://aiplanet.com/notebooks/854/manish_kc_06/day-1-notebook-exploratory-data-analysis-on-wine-dataset
 
 ### Expert Session on EDA & Data Preprocessing
 
 The session notebooks are listed below:
 
-* EDA using house pricing dataset: [https://dphi.tech/notebooks/2647](https://dphi.tech/notebooks/2647)
-* Data Preprocessing using Titanic Dataset: [https://dphi.tech/notebooks/2648](https://dphi.tech/notebooks/2648)
+* EDA using house pricing dataset: https://aiplanet.com/notebooks/2647/dphi_official/exploratory-data-analysis-on-house-prices-dataset
+* Data Preprocessing using Titanic Dataset: https://aiplanet.com/notebooks/2648/dphi_official/data-pre-processing-using-titanic-dataset
